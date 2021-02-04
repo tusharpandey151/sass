@@ -1,0 +1,18 @@
+$color:(rgb:rgb(999,0,0));
+$margin:5px + 12px;
+$font-size:20em - 19em;
+$font:Helvetica, Arial Black, sans-serif;
+$width:2px;
+
+h1 {
+  color: map-get($color, rgb);
+}
+
+#list {
+  margin-left: $margin;
+  font-family: $font;
+}
+
+h3 {
+  font-size: $font-size;
+}

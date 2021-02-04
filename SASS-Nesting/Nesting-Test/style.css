@@ -1,0 +1,10 @@
+ul li a {
+  color: blue; }
+  ul li a:hover {
+    color: red; }
+
+div p {
+  font-style: bold;
+  font-size: 25px; }
+
+/*# sourceMappingURL=style.css.map */

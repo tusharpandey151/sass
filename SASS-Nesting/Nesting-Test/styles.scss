@@ -1,0 +1,36 @@
+$myFontsize1: 22px;
+
+$myFontsize2: 25px;
+
+$myFontsize3: 25px;
+
+$myWidth: 900px;
+
+$myColor1: red;
+
+$myColor2: blue;
+
+$boldFontStyle: bold;
+
+$italicFontStyle: italic;
+
+$myBorder: 1px solid red;
+
+
+ul {
+  li {
+    a {
+      color:$myColor2;
+      &:hover {
+        color: $myColor1;
+      }
+    }
+  }
+}
+
+div {
+  p  {
+  font: {
+  style:$boldFontStyle;
+  size:$myFontsize2;
+}}}

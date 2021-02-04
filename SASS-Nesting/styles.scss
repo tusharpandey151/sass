@@ -1,0 +1,18 @@
+header {
+  h1 {
+    color: red;
+    font: {
+      size:2em;
+      style:italic
+    }
+  }
+  h2 {
+    color : green;
+    span {
+      &.tushar {
+        color:yellow
+      }
+
+    }
+  }
+}
